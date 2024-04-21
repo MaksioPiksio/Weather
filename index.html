@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="#" />
+
+    <title>Weather Api</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+    <main>
+        <nav>
+            <div class="settings">
+                <i class="fa-solid fa-qrcode"></i>
+            </div>
+
+            <div class="notifications">
+                <i class="fa-solid fa-bell"></i>
+            </div>
+
+            <div class="location">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="city"></span>
+                <span class="country"></span>
+            </div>
+
+            <div class="search-box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" class="search-bar" placeholder="Search for a city..." />
+            </div>
+
+            <div class="theme">
+                <i class="theme-icon fa-solid fa-moon"></i>
+            </div>
+
+            <div class="profile"></div>
+        </nav>
+        <article>
+            <section class="week-weather">
+                <span class="day-nav day-nav-active">Today</span>
+                <span class="day-nav">Tomorrow</span>
+                <div class="day">
+                    <div class="day-name">
+                        <span class="day-name-day"></span>
+                        <span class="day-name-date"></span>
+                    </div>
+                    <div class="day-container">
+                        <div class="day-weather-icon"></div>
+                        <div class="day-temp"></div>
+                        <div class="day-temp-detiled"></div>
+                        <div class="day-sun"></div>
+                    </div>
+                </div>
+                <div class="day">
+                    <div class="day-name">
+                        <span class="day-name-day"></span>
+                    </div>
+                    <div class="day-container">
+                        <div class="day-weather-icon"></div>                    
+                        <div class="day-temp"></div>
+                        <div class="day-temp-detiled"> TEST<br> TEST<br> TEST<br> TEST<br> </div>
+                        <div class="day-sun">TEST<br> TEST<br></div>
+                    </div>
+                </div>
+                <div class="day">
+                    <div class="day-name">
+                        <span class="day-name-day"></span>
+                    </div>
+                    <div class="day-container">
+                        <div class="day-weather-icon"></div>                    
+                        <div class="day-temp"></div>
+                    </div>
+                </div>
+                <div class="day">
+                    <div class="day-name">
+                        <span class="day-name-day"></span>
+                    </div>
+                    <div class="day-container">
+                        <div class="day-weather-icon"></div>                    
+                        <div class="day-temp"></div>
+                    </div>
+                </div>
+                <div class="day">
+                    <div class="day-name">
+                        <span class="day-name-day"></span>
+                    </div>
+                    <div class="day-container">
+                        <div class="day-weather-icon"></div>                    
+                        <div class="day-temp"></div>
+                    </div>
+                </div>
+                <div class="day">
+                    <div class="day-name">
+                        <span class="day-name-day"></span>
+                    </div>
+                    <div class="day-container">
+                        <div class="day-weather-icon"></div>                    
+                        <div class="day-temp"></div>
+                    </div>>
+                </div>
+                <div class="day">
+                    <div class="day-name">
+                        <span class="day-name-day"></span>
+                    </div>
+                    <div class="day-container">
+                        <div class="day-weather-icon"></div>                    
+                        <div class="day-temp"></div>
+                    </div>
+                </div>
+            </section>
+            <aside class="rain">
+                <h1>Chance of rain</h1>
+                <div class="rain-container">
+                    <div>100</div>
+                    <div>80</div>
+                    <div>60</div>
+                    <div>40</div>
+                    <div>20</div>
+                    <div class="rain-chart"></div>
+                    <div class="rain-chart"></div>
+                    <div class="rain-chart"></div>
+                    <div class="rain-chart"></div>
+                    <div class="rain-chart"></div>
+                    <div class="rain-chart"></div>
+                    <div class="rain-chart"></div>
+                    <div class="blank"></div>
+                    <div class="rain-week-days"></div>
+                    <div class="rain-week-days"></div>
+                    <div class="rain-week-days"></div>
+                    <div class="rain-week-days"></div>
+                    <div class="rain-week-days"></div>
+                    <div class="rain-week-days"></div>
+                    <div class="rain-week-days"></div>
+                </div>
+            </aside>
+            <section class="global-map">
+            </section>
+            <aside class="other-cites">
+            </aside>
+        </article>
+    </main>
+</body>
+</html>
